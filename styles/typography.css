@@ -2,7 +2,7 @@ h1 {
     font-family: 'Bebas Neue', sans-serif;
 	font-weight: normal;
 	font-size: 12vw;
-	color: var(--indyBlue);
+	color: var(--darkBlue);
 	text-decoration: none;
 	text-transform: capitalize; /* for backup fonts */
 	padding-top: 4rem;
