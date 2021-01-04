@@ -1,0 +1,10 @@
+.slidein {
+    /* position: fixed;  */
+    z-index: 100;
+    right: -60%;
+    transition: all .5s ease-in-out; 
+}
+
+.open {
+    right: 0; 
+}
