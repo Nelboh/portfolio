@@ -35,3 +35,17 @@ h2 {
 .whiteText {
     color: var(--offWhite);
 }
+
+.tabText {
+    position: relative;
+    left: -5.5rem;
+    bottom: 7rem;
+    text-align: center;
+    z-index: 999;
+    font-family: 'Bebas Neue', sans-serif;
+	font-weight: normal;
+    font-size: 2rem;
+    color: var(--darkBlue);
+	text-decoration: none;
+	text-transform: capitalize; /* for backup fonts */
+}

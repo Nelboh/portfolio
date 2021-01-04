@@ -24,6 +24,8 @@
 }
 
 .slider {
+    display: grid; 
+    grid-template-columns: 1fr 8fr;
     position: absolute;
     margin-top: 2rem;
     margin-bottom: 2rem;
