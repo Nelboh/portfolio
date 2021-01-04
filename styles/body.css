@@ -1,4 +1,4 @@
 body {
     background-color: var(--offWhite);
-    overflow: hidden;
+    overflow-x: hidden;
 }
