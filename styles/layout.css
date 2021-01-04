@@ -1,0 +1,36 @@
+.mainLayout {
+    display: grid; 
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+    background-color: var(--darkBlue);
+    height: fit-content;
+    width: 100%;
+    position: relative;
+}
+
+.centrePage {
+    background-color: var(--offWhite);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+}
+
+.bodyText {
+    margin-top: 5rem;
+}
+
+.sliderPage {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 10rem;
+    background-color: var(--darkBlue);
+    z-index: 5;
+    box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+}

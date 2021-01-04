@@ -1,9 +1,37 @@
+p {
+    font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 16pt;
+	color: var(--darkBlue);
+}
+
 h1 {
     font-family: 'Bebas Neue', sans-serif;
 	font-weight: normal;
-	font-size: 12vw;
+	font-size: calc(80px + 1.5vw);
 	color: var(--darkBlue);
 	text-decoration: none;
 	text-transform: capitalize; /* for backup fonts */
-	padding-top: 4rem;
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+	font-weight: normal;
+    font-size: calc(40px + 1.5vw);
+    color: var(--darkBlue);
+	text-decoration: none;
+	text-transform: capitalize; /* for backup fonts */
+}
+
+.verticalText {
+    writing-mode: vertical-rl; 
+    transform: scale(-1);
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whiteText {
+    color: var(--offWhite);
 }
