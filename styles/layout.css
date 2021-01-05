@@ -8,6 +8,15 @@
     position: relative;
 }
 
+@media screen and (max-width: 768px) {
+    .mainLayout {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        /* grid-template-columns: repeat(2, 1fr); */
+    }
+}
+
 .centrePage {
     background-color: var(--offWhite);
     margin-top: 3rem;
@@ -17,6 +26,18 @@
     box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width: 768px) {
+    .centrePage {
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 4rem;
+        padding-bottom: 6rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
 }
 
 .slider {
@@ -36,6 +57,13 @@
     -moz-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
 }
 
+@media screen and (max-width: 768px) {
+    .slider {
+        bottom: -0.5rem;
+        position: absolute;
+    }
+}
+
 .sliderPage {
     box-sizing: border-box;
     background-color: var(--offWhite);
@@ -50,8 +78,25 @@
     -moz-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
 }
 
+@media screen and (max-width: 768px) {
+    .sliderPage {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        padding-top: 1rem;
+        padding-left: 2rem;
+    }
+}
+
 .skillsList {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+    .skillsList {
+        display: block;
+        /* grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr); */
+    }
 }
