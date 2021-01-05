@@ -60,3 +60,49 @@ li {
     color: var(--darkBlue);
     padding-bottom: 0.8rem;
 }
+
+a {
+	font-family: 'Roboto', sans-serif;
+	color: var(--darkBlue);
+	border-bottom: none;
+	text-decoration: none;
+}
+
+a.currentPage {
+	color: var(--indyBlue);
+	padding-bottom: 2px;
+	border-bottom: 4px solid var(--darkBlue);
+}
+
+.navlink1, .navlink2, .navlink3, .navlink4 {
+	font-family: 'Bebas Neue', sans-serif;
+	color: var(--darkBlue);
+	font-weight: 300;
+	padding-bottom: 2px;
+	border-bottom: 4px solid var(--offWhite);
+}
+
+
+.navlink1:hover {
+	padding-bottom: 2px;
+	border-bottom: 4px solid var(--darkBlue);
+	transition: all .1s ease-in;
+}
+
+.navlink2:hover {
+	padding-bottom: 2px;
+	border-bottom: 4px solid var(--yellow);
+	transition: all .1s ease-in;
+}
+
+.navlink3:hover {
+	padding-bottom: 2px;
+	border-bottom: 4px solid var(--lightBlue);
+	transition: all .1s ease-in;
+}
+
+.navlink4:hover {
+	padding-bottom: 2px;
+	border-bottom: 4px solid var(--darkBlue);
+	transition: all .1s ease-in;
+}
