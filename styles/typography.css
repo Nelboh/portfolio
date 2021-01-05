@@ -66,6 +66,20 @@ h2 {
     }
 }
 
+.verticalTextAlternate {
+    writing-mode: vertical-rl; 
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .verticalTextAlternate {
+        display: none;
+    }
+}
+
 .whiteText {
     color: var(--offWhite);
 }
