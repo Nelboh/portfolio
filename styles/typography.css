@@ -2,7 +2,12 @@ p {
     font-family: 'Roboto', sans-serif;
 	font-weight: normal;
 	font-size: 16pt;
-	color: var(--darkBlue);
+    color: var(--darkBlue);
+    
+}
+
+.bodyText {
+    width: 80%;
 }
 
 h1 {
@@ -37,9 +42,7 @@ h2 {
 }
 
 .tabText {
-    /* position: relative;
-    left: -2.5rem;
-    bottom: 7rem; */
+
     text-align: center;
     z-index: 999;
     font-family: 'Bebas Neue', sans-serif;
@@ -48,4 +51,12 @@ h2 {
     color: var(--darkBlue);
 	text-decoration: none;
 	text-transform: capitalize; /* for backup fonts */
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 16pt;
+    color: var(--darkBlue);
+    padding-bottom: 0.8rem;
 }
