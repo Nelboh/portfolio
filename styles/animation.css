@@ -1,5 +1,5 @@
 .slidein {
-    /* position: fixed;  */
+    position: fixed; 
     z-index: 100;
     right: -60%;
     transition: all .5s ease-in-out; 
@@ -7,7 +7,7 @@
 
 .slidein2 {
     z-index: 100;
-    left: -60%;
+    left: -52%;
     transition: all .5s ease-in-out; 
 }
 
