@@ -6,6 +6,20 @@
     filter: drop-shadow( 0px 0px 5px rgba(0,0,0,0.75));
 } */
 
+.rightTab {
+    width: 200%;
+    position: absolute;
+    
+}
+
+.rightTabHolder {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .tabButton {
     background-color: var(--offWhite);
     height: 10rem;
@@ -35,5 +49,31 @@
 .tabHolder {
     width: 2rem;
 }
+
+.tabButton2 {
+    background-color: var(--offWhite);
+    height: 10rem;
+    width: 5rem;
+    z-index: 6;
+    position: absolute;
+    top: 15rem;
+    right: 2.5rem;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* @media screen and (max-width: 768px) {
+    .tabButton2 {
+        height: 10rem;
+        width: 3rem;
+        top: 11rem;
+        right: 2.5rem;
+    }
+} */
 
 

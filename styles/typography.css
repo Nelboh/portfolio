@@ -51,6 +51,15 @@ h2 {
     }
 }
 
+h3 {
+    font-family: 'Bebas Neue', sans-serif;
+	font-weight: normal;
+    font-size: calc(20px + 1.5vw);
+    color: var(--darkBlue);
+	text-decoration: none;
+	text-transform: capitalize; /* for backup fonts */
+}
+
 .verticalText {
     writing-mode: vertical-rl; 
     transform: scale(-1);
@@ -72,6 +81,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -85,7 +95,6 @@ h2 {
 }
 
 .tabText {
-
     text-align: center;
     z-index: 999;
     font-family: 'Bebas Neue', sans-serif;
@@ -94,6 +103,16 @@ h2 {
     color: var(--darkBlue);
 	text-decoration: none;
 	text-transform: capitalize; /* for backup fonts */
+}
+
+.tabTextAlternate {
+    position: relative;
+    left: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    
 }
 
 ul {

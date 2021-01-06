@@ -1,0 +1,96 @@
+.slider {
+    display: grid; 
+    grid-template-columns: 1fr 9fr;
+    position: absolute;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    right: 0;
+    height: 90%;
+    width: 65%;
+    background-color: var(--darkBlue);
+    z-index: 5;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width: 768px) {
+    .slider {
+        bottom: -0.5rem;
+    }
+}
+
+.sliderPage {
+    box-sizing: border-box;
+    background-color: var(--offWhite);
+    z-index: 5;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 0;
+    padding-top: 2.5rem;
+    padding-left: 4rem;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width: 768px) {
+    .sliderPage {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        padding-top: 1rem;
+        padding-left: 2rem;
+    }
+}
+
+.skillsList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+    .skillsList {
+        display: block;
+        /* grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr); */
+    }
+}
+
+.sliderWhitePage {
+    width: 85%;
+    background-color: var(--offWhite);
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 17rem;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+}
+
+.sliderHolder {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 1;
+    
+    width: 60%;
+    height: fit-content;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+
+    background: rgb(239,209,81);
+    background: -moz-linear-gradient(180deg, rgba(239,209,81,1) 0%, rgba(175,145,20,1) 2%, rgba(239,209,81,1) 2%, rgba(239,209,81,1) 98%, rgba(175,145,20,1) 98%, rgba(238,205,65,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(239,209,81,1) 0%, rgba(175,145,20,1) 2%, rgba(239,209,81,1) 2%, rgba(239,209,81,1) 98%, rgba(175,145,20,1) 98%, rgba(238,205,65,1) 100%);
+    background: linear-gradient(180deg, rgba(239,209,81,1) 0%, rgba(175,145,20,1) 2%, rgba(239,209,81,1) 2%, rgba(239,209,81,1) 98%, rgba(175,145,20,1) 98%, rgba(238,205,65,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efd151",endColorstr="#eecd41",GradientType=1);
+}

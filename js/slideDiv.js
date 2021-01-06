@@ -1,5 +1,5 @@
 let btn = document.getElementById('tabButton');
-let slider = document.getElementById('slider');
+let slider = document.getElementById('sliderDiv');
 
 let slidein = document.querySelector('.slidein');
 
