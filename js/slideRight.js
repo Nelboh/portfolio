@@ -1,8 +1,8 @@
-let newSlider = document.getElementById('slideRight');
+let secondSlider = document.getElementById('slideRight');
 
-let slideToRight = document.querySelector('.slidIn');
+let slideToRight = document.querySelector('.slidInR');
 
-newSlider.addEventListener('click', function () {
-    newSlider.classList.add('slidIn')
+secondSlider.addEventListener('click', function () {
+    secondSlider.classList.add('slidInR')
 });
 

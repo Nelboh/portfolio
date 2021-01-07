@@ -123,17 +123,17 @@ ul {
 
 @media screen and (max-width: 768px) {
     ul {
-        padding-bottom: 1rem;
+        padding-bottom: 0.7rem;
     }
 }
 
 li {
     font-family: 'Roboto', sans-serif;
 	font-weight: normal;
-	font-size: 14pt;
+	font-size: 12pt;
     color: var(--darkBlue);
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
 }
 
 @media screen and (max-width: 768px) {

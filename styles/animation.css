@@ -1,25 +1,22 @@
-.slidein {
+.slideinR {
     position: fixed; 
     z-index: 100;
     right: -60%;
     transition: all .5s ease-in-out; 
 }
 
-.slideinTwo {
+.slidInR {
+    left: 0 !important;
+}
+
+.slideinL {
+    position: fixed; 
     z-index: 100;
-    left: -52%;
-    /* left: 0; */
+    right: -60%;
     transition: all .5s ease-in-out; 
 }
 
-.open {
-    right: 0; 
+.slidInL {
+    right: 0 !important;
 }
 
-.openTwo {
-    left: 0; 
-}
-
-.slidIn {
-    left: 0 !important;
-}

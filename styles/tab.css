@@ -9,7 +9,6 @@
 .rightTab {
     width: 200%;
     position: absolute;
-    
 }
 
 .rightTabHolder {
@@ -20,7 +19,21 @@
     text-align: center;
 }
 
-.tabButton {
+.leftTab {
+    width: 200%;
+    position: absolute;
+    right: 1rem;
+}
+
+.leftTabHolder {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* .tabButton {
     background-color: var(--offWhite);
     height: 10rem;
     width: 5rem;
@@ -35,22 +48,22 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .tabButton {
         height: 10rem;
         width: 3rem;
         top: 11rem;
         left: -2.5rem;
     }
-}
+} */
 
 .tabHolder {
     width: 2rem;
 }
 
-.tabButton2 {
+/* .tabButton2 {
     background-color: var(--offWhite);
     height: 10rem;
     width: 5rem;
@@ -65,7 +78,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-}
+} */
 
 /* @media screen and (max-width: 768px) {
     .tabButton2 {
