@@ -11,7 +11,12 @@ p {
     }
 }
 
-p.bodyP{
+p.bodyPL{
+    padding-bottom: 2rem;
+    margin-right: 4rem;
+}
+
+p.bodyPR{
     padding-bottom: 2rem;
     margin-right: 2rem;
 }
@@ -114,11 +119,11 @@ h3 {
     justify-content: center;
     align-items: center;
     z-index: 10;
-    
 }
 
 ul {
-    padding-bottom: 2.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 @media screen and (max-width: 768px) {
