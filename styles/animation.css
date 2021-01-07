@@ -20,16 +20,6 @@
     left: 0; 
 }
 
-/* .slidOffscreen {
-    position: absolute;
-    z-index: 100;
-    left: -52%;
-    transition: all .5s ease-in-out; 
-} */
-
 .slidIn {
-    /* position: fixed;  */
-    /* top: 0;
-    z-index: 100; */
     left: 0 !important;
 }
