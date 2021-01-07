@@ -74,6 +74,11 @@
 
 .sliderHolder {
     position: absolute;
+    z-index: 100;
+    left: -52%;
+    transition: all .5s ease-in-out; 
+
+    cursor: pointer;
     display: grid;
     grid-template-columns: 5fr 1fr;
     grid-template-rows: 1;
