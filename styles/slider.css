@@ -59,6 +59,7 @@
 }
 
 .sliderWhitePage {
+    cursor: default;
     width: 85%;
     background-color: var(--offWhite);
     margin-left: 3rem;
@@ -106,6 +107,7 @@
 }
 
 .sliderCopyBox {
+    cursor: pointer;
     background-color: var(--yellow);
     margin-right: 3rem;
     margin-top: 0.5rem;
