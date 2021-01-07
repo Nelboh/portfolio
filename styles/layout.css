@@ -65,10 +65,10 @@
 }
 
 .whitePageL {
-    width: 85%;
     background-color: var(--offWhite);
     margin-top: 3rem;
     margin-bottom: 3rem;
+    width: 100%;
     padding-left: 3rem;
     padding-top: 3rem;
     padding-bottom: 17rem;
@@ -79,8 +79,7 @@
 
 @media screen and (max-width: 768px) {
     .whitePageL {
-        margin-left: 3.5rem;
-        margin-right: 0;
+        margin-left: 2rem;
     }
 }
 
