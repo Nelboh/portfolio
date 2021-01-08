@@ -5,7 +5,6 @@
     background-color: var(--darkBlue);
     position: relative;
     margin-right: 0;
-    max-height: 100rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -22,7 +21,6 @@
     grid-template-columns: 5fr 1fr;
     grid-template-rows: 1fr;
     background-color: var(--yellow);
-    width: 100%;
     position: relative; 
     margin-left: 0;
 }
@@ -57,7 +55,8 @@
     background-color: var(--offWhite);
     margin-top: 3rem;
     margin-bottom: 3rem;
-    padding-left: 3rem;
+    padding-left: 8rem;
+    margin-right: 3rem;
     padding-top: 3rem;
     padding-bottom: 17rem;
     box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
@@ -65,12 +64,20 @@
     -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .whitePageR {
         margin-right: 2.5rem;
         padding-right: 1.5rem;
     }
 }
+
+@media screen and (min-width: 360px) {
+    .whitePageR {
+        margin-right: 2.5rem;
+        padding-right: 1.5rem;
+        width: 50%;
+    }
+} */
 
 .whitePageL {
     width: 100%;
@@ -87,8 +94,9 @@
 
 @media screen and (max-width: 768px) {
     .whitePageL {
-        margin-left: 2.5rem;
+        margin-left: 1.5rem;
         padding-left: 1.5rem;
+        padding-bottom: 0;
     }
 }
 

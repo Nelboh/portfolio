@@ -1,5 +1,5 @@
 .rightTab {
-    width: 200%;
+    min-width: 150%;
     position: absolute;
 }
 
@@ -13,29 +13,28 @@
 
 .rightTabHolder {
     position: relative;
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
 .leftTab {
-    width: 200%;
+    min-width: 150%;
     position: absolute;
-    right: 1rem;
+    right: 3rem;
 }
 
 @media screen and (max-width: 768px) {
     .leftTab {
         width: 10rem;
-        top: 13rem;
         left: -6rem;
     }
 }
 
 .leftTabHolder {
     position: relative;
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;

@@ -16,7 +16,9 @@
         margin-top: 3rem;
         margin-bottom: 3rem;
         padding-top: 1rem;
-        padding-left: 2rem;
+        padding-left: 1rem;
+        padding-right: 0.5rem;
+        padding-bottom: 1rem;
         max-height: 100%;
     }
 }
@@ -57,7 +59,7 @@
     cursor: pointer;
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1;
+    /* grid-template-rows: 1; */
     
     width: 60%;
     height: fit-content;
@@ -74,6 +76,12 @@
     background: -webkit-linear-gradient(180deg, rgba(91,100,127,1) 0%, rgba(38,41,52,1) 2%, rgba(91,100,127,1) 2%, rgba(91,100,127,1) 98%, rgba(38,41,52,1) 98%, rgba(91,100,127,1) 100%);
     background: linear-gradient(180deg, rgba(91,100,127,1) 0%, rgba(38,41,52,1) 2%, rgba(91,100,127,1) 2%, rgba(91,100,127,1) 98%, rgba(38,41,52,1) 98%, rgba(91,100,127,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5b647f",endColorstr="#5b647f",GradientType=1);
+}
+
+@media screen and (max-width: 768px) {
+    .sliderHolder1 {
+        height: 88%;
+    }
 }
 
 .sliderHolder2 {
@@ -113,8 +121,8 @@
     cursor: pointer;
     background-color: var(--yellow);
     margin-right: 3rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
     padding: 0.5rem;
 }
 
@@ -122,6 +130,7 @@
     .sliderCopyBox {
         margin-right: 0;
     }
+}
 
 .skillsList {
     display: grid;
