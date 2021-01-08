@@ -3,10 +3,17 @@
     position: absolute;
 }
 
+@media screen and (max-width: 1268px) {
+    .rightTab {
+        width: 10rem;
+        left: -0.5rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .rightTab {
         width: 10rem;
-        left: -1.5rem;
+        left: -0.5rem;
     }
 }
 
@@ -26,8 +33,8 @@
 
 @media screen and (max-width: 768px) {
     .leftTab {
-        width: 10rem;
-        left: -6rem;
+        height: 8rem;
+        left: -5rem;
     }
 }
 

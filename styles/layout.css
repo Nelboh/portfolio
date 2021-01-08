@@ -5,6 +5,7 @@
     background-color: var(--darkBlue);
     position: relative;
     margin-right: 0;
+    height: 650px;
 }
 
 @media screen and (max-width: 768px) {
@@ -13,6 +14,7 @@
         grid-template-columns: 5fr 1fr;
         position: relative;
         width: 100%;
+        height: 35rem;
     }
 }
 
@@ -25,7 +27,18 @@
     margin-left: 0;
 }
 
-.centrePage {
+@media screen and (max-width: 768px) {
+    .layout2 {
+        display: grid;
+        /* grid-template-columns: 5fr 1fr; */
+        grid-template-columns: none;
+        position: relative;
+        width: 100%;
+        height: 35rem;
+    }
+}
+
+/* .centrePage {
     width: 85%;
     background-color: var(--offWhite);
     margin-top: 3rem;
@@ -48,14 +61,15 @@
         margin-top: 4rem;
         margin-bottom: 4rem;
     }
-}
+} */
 
 .whitePage1 {
+    display: flex;
+    align-items: center;
     width: 110%;
     background-color: var(--offWhite);
     margin-top: 3rem;
     margin-bottom: 3rem;
-    /* margin-left: 3rem; */
     padding-left: 3rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -64,8 +78,17 @@
     -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
 }
 
+
+@media screen and (max-width: 280px) {
+    .whitePage1 {
+        padding: 0;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .whitePage1 {
+        justify-content: center;
         margin-left: 1.5rem;
         margin-bottom: 2rem;
         padding-top: 1.5rem;
@@ -93,7 +116,7 @@
 
 @media screen and (max-width: 768px) {
     .whitePage2 {
-        width: 65%;
+        width: 75%;
         margin-right: 1.5rem;
         padding-top: 1.5rem;
         padding-right: 1.5rem;

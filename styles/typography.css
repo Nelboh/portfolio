@@ -58,6 +58,14 @@ h2 {
     margin-bottom: 4rem;
 }
 
+
+@media screen and (max-width: 280px) {
+    h2 {
+        max-width: 10rem;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     h2 {
         margin-bottom: 1.5rem;
@@ -168,6 +176,14 @@ a.currentPage {
 	color: var(--indyBlue);
 	padding-bottom: 2px;
 	border-bottom: 4px solid var(--darkBlue);
+}
+
+a.bodyLink {
+    text-decoration: underline;
+}
+
+a.bodyLink:hover {
+    background-color: var(--lightBlue);
 }
 
 .navlink1, .navlink2, .navlink3, .navlink4 {
