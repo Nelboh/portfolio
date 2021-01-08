@@ -7,7 +7,8 @@ p {
 
 @media screen and (max-width: 768px) {
     p {
-        font-size: 1rem;
+        font-size: 11pt;
+        line-height: 1rem;
     }
 }
 
@@ -24,7 +25,6 @@ p {
 
 p.bodyPR{
     padding-bottom: 2rem;
-    margin-right: 2rem;
 }
 
 .bodyText {
@@ -60,7 +60,7 @@ h2 {
 
 @media screen and (max-width: 768px) {
     h2 {
-        margin-bottom: 4rem;
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -76,10 +76,11 @@ h3 {
 .verticalText {
     writing-mode: vertical-rl; 
     transform: scale(-1);
-    height: 40rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -202,7 +203,7 @@ a.currentPage {
 }
 
 .devText {
-    width: 80%;
+    width: 70%;
 }
 
 @media screen and (max-width: 768px) {
@@ -210,3 +211,13 @@ a.currentPage {
         width: 90%;
     }
 }
+
+.copyText {
+    width: 80%;
+}
+
+/* @media screen and (max-width: 768px) {
+    .copyText {
+        width: 90%;
+    }
+} */
