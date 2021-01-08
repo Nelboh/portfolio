@@ -1,4 +1,4 @@
-.sliderPage {
+.sliderPageL {
     cursor: default;
     width: 85%;
     max-height: 80%;
@@ -12,27 +12,40 @@
 }
 
 @media screen and (max-width: 768px) {
-    .sliderPage {
+    .sliderPageL {
         margin-top: 3rem;
         margin-bottom: 3rem;
         padding-top: 1rem;
         padding-left: 2rem;
+        max-height: 100%;
     }
 }
 
 .sliderWhitePage {
     cursor: default;
     width: 85%;
+    max-height: 80%;
+    margin-top: 3rem;
     background-color: var(--offWhite);
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    margin-right: 3rem;
     padding-left: 3rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
     box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width: 768px) {
+    .sliderWhitePage {
+        max-width: 80%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        padding: 0.5rem;
+    }
 }
 
 .sliderHolder1 {
@@ -61,9 +74,6 @@
     background: -webkit-linear-gradient(180deg, rgba(91,100,127,1) 0%, rgba(38,41,52,1) 2%, rgba(91,100,127,1) 2%, rgba(91,100,127,1) 98%, rgba(38,41,52,1) 98%, rgba(91,100,127,1) 100%);
     background: linear-gradient(180deg, rgba(91,100,127,1) 0%, rgba(38,41,52,1) 2%, rgba(91,100,127,1) 2%, rgba(91,100,127,1) 98%, rgba(38,41,52,1) 98%, rgba(91,100,127,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5b647f",endColorstr="#5b647f",GradientType=1);
-    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
 }
 
 .sliderHolder2 {
@@ -104,14 +114,20 @@
     background-color: var(--yellow);
     margin-right: 3rem;
     margin-top: 0.5rem;
-    padding-top: 0.5rem;
-    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
 }
+
+@media screen and (max-width: 768px) {
+    .sliderCopyBox {
+        margin-right: 0;
+    }
 
 .skillsList {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    overflow: scroll;
 }
 
 @media screen and (max-width: 768px) {

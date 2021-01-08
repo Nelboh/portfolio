@@ -3,6 +3,14 @@
     position: absolute;
 }
 
+@media screen and (max-width: 768px) {
+    .rightTab {
+        width: 10rem;
+        top: 13rem;
+        left: -1.5rem;
+    }
+}
+
 .rightTabHolder {
     position: relative;
     display: grid;
@@ -21,7 +29,7 @@
     .leftTab {
         width: 10rem;
         top: 13rem;
-        left: -7rem;
+        left: -6rem;
     }
 }
 
