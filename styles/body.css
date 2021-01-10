@@ -3,7 +3,7 @@ html, body {
     overflow-x: hidden;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     ::-webkit-scrollbar {
         -webkit-appearance: none;
         width: 10px;
@@ -12,4 +12,4 @@ html, body {
     ::-webkit-scrollbar-thumb {
         background-color: rgba(91, 109, 127, .5);
     }
-}
+} */
