@@ -96,7 +96,6 @@
 @media screen and (max-width: 768px) {
     .whitePage2 {
         justify-content: center;
-        /* width: 65%; */
         margin-right: 2rem;
         padding-top: 1.5rem;
         padding-right: 0rem;
@@ -105,3 +104,9 @@
     }
 }
 
+@media screen and (max-width: 1430px) {
+    .whitePage2 {
+        padding-left: 4rem;
+
+    }
+}

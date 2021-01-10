@@ -78,6 +78,7 @@ h2 {
     background-color: var(--offWhite);
 
     min-width: 6rem;
+    max-width: 7rem;
     max-height: 12rem;
 
     margin-top: 12rem;
@@ -112,6 +113,7 @@ h2 {
     background-color: var(--offWhite);
 
     min-width: 6rem;
+    max-width: 7rem;
     max-height: 12rem;
 
     margin-top: 12rem;
