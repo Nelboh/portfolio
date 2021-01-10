@@ -1,15 +1,5 @@
 html, body {
-    background-color: var(--offWhite);
+    background-color: var(--darkGrey);
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
-
-/* @media screen and (max-width: 768px) {
-    ::-webkit-scrollbar {
-        -webkit-appearance: none;
-        width: 10px;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background-color: rgba(91, 109, 127, .5);
-    }
-} */

@@ -1,3 +1,7 @@
+.bgContact {
+    background-color: var(--darkGrey) !important;
+}
+
 .layout1 {
     display: grid; 
     grid-template-columns: 1fr 5fr;
@@ -111,5 +115,19 @@
 @media screen and (max-width: 1430px) {
     .whitePage2 {
         padding-left: 4rem;
+    }
+}
+
+.contactBox {
+    margin-top: 12rem;
+    margin-left: 6rem;
+}
+
+@media screen and (max-width: 768px) {
+    .contactBox {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 }

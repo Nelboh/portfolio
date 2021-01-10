@@ -1,0 +1,35 @@
+.sticker {
+    border-radius: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    padding-top: 3px;
+    color: var(--darkGrey);
+    background-color: var(--offWhite);
+	height: 64px;
+    width: 64px;
+	display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.sticker:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .sticker {
+        margin-left: 1rem;
+    }
+}
+
+.stickerHolder {
+    width: 30%;
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;	
+}
+
+.gitLogo {
+    height: 64px;
+    width: 64px;
+}
