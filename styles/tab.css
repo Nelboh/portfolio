@@ -1,38 +1,18 @@
-.rightTab {
-    min-width: 150%;
+.tab1 {
+    max-height: 15rem;
     position: absolute;
+    left: -8rem;
 }
 
-@media screen and (max-width: 1268px) {
-    .rightTab {
-        width: 10rem;
-        left: -0.5rem;
+@media screen and (max-width: 825px) {
+    .tab1 {
+        height: 12rem;
+        left: -7rem;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .rightTab {
-        width: 10rem;
-        left: -0.5rem;
-    }
-}
-
-.rightTabHolder {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.leftTab {
-    min-width: 150%;
-    position: absolute;
-    right: 3rem;
-}
-
-@media screen and (max-width: 768px) {
-    .leftTab {
+    .tab1 {
         height: 8rem;
         left: -5rem;
     }
@@ -47,7 +27,38 @@
     z-index: 20;
 }
 
-.tabHolder {
-    width: 2rem;
+/* .tab2 {
+    max-height: 15rem;
+    min-height: 10rem;
+    position: absolute;
+    left: 3rem;
 }
 
+@media screen and (max-width: 825px) {
+    .tab2 {
+        min-height: 12rem;
+        left: -0.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tab2 {
+        height: 18rem;
+        left: -5.8rem;
+    }
+} */
+
+/* .tabHolder2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 20;
+} */
+/* 
+.tabHolder2 {
+    z-index: 20;
+    
+} */
