@@ -72,14 +72,13 @@ h2 {
 
 .h2alternate {
     text-align: right;
-    /* margin-right: 4rem; */
 }
 
 .sliderTitle1 {
     background-color: var(--offWhite);
 
-    width: 6rem;
-    height: 12rem;
+    min-width: 6rem;
+    max-height: 12rem;
 
     margin-top: 12rem;
     margin-bottom: 12rem;
@@ -102,18 +101,18 @@ h2 {
 @media screen and (max-width: 768px) {
     .sliderTitle1 {
         right: 3rem;
-        padding-right: 0.3rem;
-        padding-left: 0.3rem;
-        width: 3.7rem;
-        height: 7rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        min-width: 3.7rem;
+        max-height: 7rem;
     }
 }
 
 .sliderTitle2 {
     background-color: var(--offWhite);
 
-    width: 6rem;
-    height: 12rem;
+    min-width: 6rem;
+    max-height: 12rem;
 
     margin-top: 12rem;
     margin-bottom: 12rem;
@@ -138,8 +137,8 @@ h2 {
         left: 3rem;
         padding-right: 0.3rem;
         padding-left: 0.3rem;
-        width: 3.7rem;
-        height: 7rem;
+        min-width: 3.7rem;
+        max-height: 7rem;
     }
 }
 
