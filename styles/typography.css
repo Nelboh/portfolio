@@ -72,7 +72,7 @@ h2 {
 
 .h2alternate {
     text-align: right;
-    margin-right: 4rem;
+    /* margin-right: 4rem; */
 }
 
 .sliderTitle1 {
@@ -311,10 +311,12 @@ a.bodyLink:hover {
 
 .copyText {
     width: 80%;
+    margin-right: 3rem;
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .copyText {
-        width: 90%;
+        margin-right: 0rem;
+        margin-left: 0.5rem;
     }
-} */
+}
