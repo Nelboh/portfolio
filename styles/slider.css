@@ -2,10 +2,13 @@
     cursor: default;
     width: 85%;
     max-height: 80%;
+
     margin-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
 
     background-color: var(--offWhite);
-    padding-left: 2rem;
     box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
@@ -24,19 +27,12 @@
 
 .sliderPage2 {
     cursor: default;
-    width: 85%;
+    width: 90%;
     max-height: 80%;
     margin-top: 3rem;
     
     background-color: var(--offWhite);
     padding-left: 2rem;
-    /* margin-left: 1rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    margin-right: 3rem;
-    padding-left: 3rem;
-    padding-top: 1.8rem;
-    padding-bottom: 1.8rem; */
 
     box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
@@ -95,7 +91,6 @@
     cursor: pointer;
     display: grid;
     grid-template-columns: 5fr 1fr;
-    /* grid-template-rows: 1; */
     
     width: 60%;
     height: fit-content;
@@ -139,6 +134,11 @@
     padding: 0.5rem;
 }
 
+.sliderCopyBox:hover {
+    background-color: var(--darkYellow);
+    
+}
+
 @media screen and (max-width: 768px) {
     .sliderCopyBox {
         margin-right: 0;
@@ -156,4 +156,21 @@
     .skillsList {
         display: block;
     }
+}
+
+.devBox {
+    cursor: pointer;
+    background-color: var(--darkBlue);
+
+    display: grid;
+    align-items: center;
+    width: 90%;
+    height: fit-content;
+
+    padding: 0.5rem;
+    margin: auto;
+}
+
+.devBox:hover {
+    background-color: var(--darkerBlue);
 }
