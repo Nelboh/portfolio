@@ -202,7 +202,7 @@ h4 {
     color: var(--offWhite);
 }
 
-.tabText {
+/* .tabText {
     text-align: center;
     z-index: 999;
     font-family: 'Bebas Neue', sans-serif;
@@ -211,16 +211,16 @@ h4 {
     color: var(--darkBlue);
 	text-decoration: none;
 	text-transform: capitalize; /* for backup fonts */
-}
+/* } */
 
-.tabTextAlternate {
+/* .tabTextAlternate {
     position: relative;
     left: 3.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 10;
-}
+} */ 
 
 ul {
     /* padding-bottom: 1rem; */

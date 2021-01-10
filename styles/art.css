@@ -1,16 +1,21 @@
 .imageGallery {
     box-sizing: border-box;
-	margin: 2rem;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 3vw;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 7rem;
+    margin-bottom: 2.5rem;
+    margin-right: 2rem;
+
+    height: 60%;
+    overflow: scroll;
 }
 
-.imageGallery figure img {
-    display: block;
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
+.artBox {
+    height: 8rem;
+    width: 8rem;
+    object-fit: contain;
+    margin: 0.5rem;
+    cursor: default;
 }
 
 .imgTall {
