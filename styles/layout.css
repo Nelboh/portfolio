@@ -18,6 +18,10 @@
     }
 }
 
+.bgArt {
+    background-color: var(--lightBlue);
+}
+
 .layout2 {
     display: grid; 
     grid-template-columns: 5fr 1fr;
