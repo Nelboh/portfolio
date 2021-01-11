@@ -1,7 +1,7 @@
 p {
     font-family: 'Roboto', sans-serif;
 	font-weight: normal;
-	font-size: 14pt;
+	font-size: 12pt;
     color: var(--darkBlue);
     line-height: 150%;
 }
@@ -16,7 +16,7 @@ p {
 .contactP {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    font-size: 16pt;
+    font-size: 12pt;
     color: var(--offWhite);
     padding-bottom: 2rem;
     line-height: 150%;
@@ -81,55 +81,6 @@ h1 {
     padding-top: 6rem;
 }
 
-/* .subtitleHolder {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
-    margin-right: 3rem;
-    padding-bottom: 3rem;
-}
-
-.subtitle1 {
-    color: var(--darkBlue);
-    cursor: pointer;
-}
-
-.subtitle1:hover {
-    color: var(--darkerBlue);
-    text-decoration: underline;
-}
-
-.subtitle2 {
-    color: var(--yellow);
-    cursor: pointer;
-}
-
-.subtitle2:hover {
-    color: var(--darkYellow);
-    text-decoration: underline;
-}
-
-.subtitle3 {
-    color: var(--lightBlue);
-    cursor: pointer;
-}
-
-.subtitle3:hover {
-    color: var(--midBlue);
-    text-decoration: underline;
-}
-
-.subtitle4 {
-    color: var(--darkGrey);
-    cursor: pointer;
-}
-
-.subtitle4:hover {
-    color: var(--darkerGrey);
-    text-decoration: underline;
-} */
-
 @media screen and (max-width: 1366px) {
 	.homeTitle {
 		font-size: 20vw;
@@ -170,8 +121,8 @@ h2 {
 .sliderTitle1 {
     background-color: var(--offWhite);
 
-    min-width: 5rem;
-    max-width: 6rem;
+    min-width: 3rem;
+    max-width: 4rem;
     max-height: 12rem;
 
     margin-top: 12rem;
@@ -205,14 +156,14 @@ h2 {
 .sliderTitle2 {
     background-color: var(--offWhite);
 
-    min-width: 5rem;
-    max-width: 6rem;
+    min-width: 3rem;
+    max-width: 4rem;
     max-height: 12rem;
 
     margin-top: 12rem;
     margin-bottom: 12rem;
     text-align: center;
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 0 1rem 0 1rem;
     border-radius: 0 10px 10px 0;
 
     display: flex;
@@ -237,6 +188,30 @@ h2 {
     }
 }
 
+@media screen and (min-width: 900px) {
+    .sliderTitle2 {
+        left: 4rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .sliderTitle2 {
+        left: 5rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .sliderTitle2 {
+        left: 7rem;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .sliderTitle2 {
+        left: 9rem;
+    }
+}
+
 h3 {
     font-family: 'Bebas Neue', sans-serif;
 	font-weight: normal;
@@ -249,7 +224,7 @@ h3 {
 h4 {
     font-family: 'Bebas Neue', sans-serif;
 	font-weight: normal;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--darkBlue);
 	text-decoration: none;
 	text-transform: capitalize; /* for backup fonts */
@@ -377,7 +352,8 @@ a.bodyLink:hover {
 	color: var(--darkBlue);
 	font-weight: 300;
 	padding-bottom: 2px;
-	border-bottom: 4px solid var(--offWhite);
+    border-bottom: 4px solid var(--offWhite);
+    font-size: calc(12px + 1.5vw);
 }
 
 .navlink1:hover {
