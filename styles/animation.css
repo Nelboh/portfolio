@@ -19,3 +19,7 @@
 .slidInL {
     right: 0 !important;
 }
+
+.hideHeader {
+    transition: all .5s ease-in-out; 
+}

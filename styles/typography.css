@@ -1,7 +1,7 @@
 p {
     font-family: 'Roboto', sans-serif;
 	font-weight: normal;
-	font-size: 16pt;
+	font-size: 14pt;
     color: var(--darkBlue);
     line-height: 150%;
 }
@@ -73,6 +73,67 @@ h1 {
 	color: var(--darkBlue);
 	text-decoration: none;
 	text-transform: capitalize; /* for backup fonts */
+}
+
+.homeTitle {
+    font-size: 12vw;
+    margin-left: 2rem;
+    padding-top: 6rem;
+}
+
+/* .subtitleHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin-right: 3rem;
+    padding-bottom: 3rem;
+}
+
+.subtitle1 {
+    color: var(--darkBlue);
+    cursor: pointer;
+}
+
+.subtitle1:hover {
+    color: var(--darkerBlue);
+    text-decoration: underline;
+}
+
+.subtitle2 {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+.subtitle2:hover {
+    color: var(--darkYellow);
+    text-decoration: underline;
+}
+
+.subtitle3 {
+    color: var(--lightBlue);
+    cursor: pointer;
+}
+
+.subtitle3:hover {
+    color: var(--midBlue);
+    text-decoration: underline;
+}
+
+.subtitle4 {
+    color: var(--darkGrey);
+    cursor: pointer;
+}
+
+.subtitle4:hover {
+    color: var(--darkerGrey);
+    text-decoration: underline;
+} */
+
+@media screen and (max-width: 1366px) {
+	.homeTitle {
+		font-size: 20vw;
+	}
 }
 
 h2 {
@@ -314,24 +375,28 @@ a.bodyLink:hover {
 }
 
 .navlink1:hover {
+    color: var(--darkerBlue);
 	padding-bottom: 2px;
 	border-bottom: 4px solid var(--darkBlue);
 	transition: all .1s ease-in;
 }
 
 .navlink2:hover {
-	padding-bottom: 2px;
+    color: var(--darkYellow);
+    padding-bottom: 2px;
 	border-bottom: 4px solid var(--yellow);
 	transition: all .1s ease-in;
 }
 
 .navlink3:hover {
+    color: var(--midBlue);
 	padding-bottom: 2px;
 	border-bottom: 4px solid var(--lightBlue);
 	transition: all .1s ease-in;
 }
 
 .navlink4:hover {
+    color: var(--darkerGrey);
 	padding-bottom: 2px;
 	border-bottom: 4px solid var(--darkGrey);
 	transition: all .1s ease-in;

@@ -1,5 +1,5 @@
 html, body {
-    background-color: var(--darkGrey);
+    background-color: var(--offWhite);
     overflow-x: hidden;
     scroll-behavior: smooth;
 }

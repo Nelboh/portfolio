@@ -4,6 +4,8 @@
 
 @import "colours.css";
 
+@import "pages.css";
+
 @import "layout.css";
 
 @import "nav.css";
@@ -14,7 +16,7 @@
 
 @import "slider.css";
 
-@import "art.css";
+@import "imageGallery.css";
 
 @import "stickers.css";
 

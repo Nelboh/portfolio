@@ -2,6 +2,12 @@
     background-color: var(--darkGrey) !important;
 }
 
+.mainHeader {
+    background-color: var(--offWhite);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
 .layout1 {
     display: grid; 
     grid-template-columns: 1fr 5fr;

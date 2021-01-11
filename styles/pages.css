@@ -1,0 +1,171 @@
+.pages {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	box-sizing: border-box;
+	height: 100vh;
+	position: relative;
+}
+
+@media screen and (max-width: 1366px) {
+	.pages {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		margin-bottom: 0;
+	}
+}
+
+.colourCards {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr)); 
+	box-sizing: border-box;
+	height: 100vh;
+}
+
+@media screen and (max-width: 1366px) {
+	.colourCardsMB {
+		display: grid;
+		height: auto;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		margin-bottom: 0rem;
+	}
+}
+
+@media screen and (max-width: 1366px) {
+	#titleMB {
+		display: grid;
+		box-sizing: border-box;
+		height: auto;
+		padding-left: 2rem;
+		padding-top: 4rem;
+		padding-bottom: 6rem;
+		background-color: var(--offWhite);
+		z-index: 10;
+	}
+}
+
+.title {
+	display: grid;
+	box-sizing: border-box;
+	height: 100vh;
+	padding-left: 4rem;
+	padding-top: 4rem;
+	background-color: var(--offWhite);
+	z-index: 10;
+}
+
+
+.page1 {
+	position: relative;
+	padding: 1rem;
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: row;
+	align-items: flex-end;
+	transition: all .2s ease-in;
+    z-index: 9;
+    height: 100vh;
+    
+	background: -moz-linear-gradient(90deg, var(--darkerBlue) 0%, var(--darkBlue) 10%);
+    background: -webkit-linear-gradient(90deg, var(--darkerBlue) 0%, var(--darkBlue) 10%);
+    background: linear-gradient(90deg, var(--darkerBlue) 0%, var(--darkBlue) 10%);
+}
+
+@media screen and (max-width: 1366px) {
+	.page1 {
+		background: -moz-linear-gradient(180deg, var(--darkerBlue) 0%, var(--darkBlue) 10%);
+		background: -webkit-linear-gradient(180deg, var(--darkerBlue) 0%, var(--darkBlue) 10%);
+		background: linear-gradient(180deg, var(--darkerBlue) 0%, var(--darkBlue) 10%);
+	}
+}
+
+.page1:hover{
+	cursor: pointer;
+	transform: translate3D(0,-1px,0) scale(1.05);
+}
+
+.page2 {
+	position: relative;
+	padding: 1rem;
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: row;
+	align-items: flex-end;
+	transition: all .2s ease-in-out;
+    z-index: 7;
+    height: 100vh;
+    
+    background: -moz-linear-gradient(90deg, var(--darkYellow) 0%, var(--yellow) 10%);
+    background: -webkit-linear-gradient(90deg, var(--darkYellow) 0%, var(--yellow) 10%);
+    background: linear-gradient(90deg, var(--darkYellow) 0%, var(--yellow) 10%);
+}
+
+.page2:hover{
+	cursor: pointer;
+	transform: translate3D(0,-1px,0) scale(1.05);
+}
+
+@media screen and (max-width: 1366px) {
+	.page2 {
+		background: -moz-linear-gradient(180deg, var(--darkYellow) 0%, var(--yellow) 10%);
+        background: -webkit-linear-gradient(180deg, var(--darkYellow) 0%, var(--yellow) 10%);
+        background: linear-gradient(180deg, var(--darkYellow) 0%, var(--yellow) 10%);
+	}
+}
+
+.page3 {
+	position: relative;
+	padding: 1rem;
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: row;
+	align-items: flex-end;
+	transition: all .2s ease-in-out;
+    z-index: 5;
+    height: 100vh;
+    
+    background: -moz-linear-gradient(90deg, var(--midBlue) 0%, var(--lightBlue) 10%);
+    background: -webkit-linear-gradient(90deg, var(--midBlue) 0%, var(--lightBlue) 10%);
+    background: linear-gradient(90deg, var(--midBlue) 0%, var(--lightBlue) 10%);
+}
+
+.page3:hover{
+	cursor: pointer;
+	transform: translate3D(0,-1px,0) scale(1.05);
+}
+
+@media screen and (max-width: 1366px) {
+	.page3 {
+		background: -moz-linear-gradient(180deg, var(--midBlue) 0%, var(--lightBlue) 10%);
+        background: -webkit-linear-gradient(180deg, var(--midBlue) 0%, var(--lightBlue) 10%);
+        background: linear-gradient(180deg, var(--midBlue) 0%, var(--lightBlue) 10%);
+	}
+}
+
+.page4 {
+	position: relative;
+	padding: 1rem;
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: row;
+	align-items: flex-end;
+	transition: all .2s ease-in-out;
+    z-index: 3;
+    height: 100vh;
+    
+    background: -moz-linear-gradient(90deg, var(--darkerGrey) 0%, var(--darkGrey) 10%);
+    background: -webkit-linear-gradient(90deg, var(--darkerGrey) 0%, var(--darkGrey) 10%);
+    background: linear-gradient(90deg, var(--darkerGrey) 0%, var(--darkGrey) 10%);
+}
+
+.page4:hover{
+	cursor: pointer;
+	transform: translate3D(0,-1px,0) scale(1.05);
+}
+
+@media screen and (max-width: 1366px) {
+	.page4 {
+		background-color: var(--darkGrey);
+	}
+}
