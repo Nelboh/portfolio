@@ -14,6 +14,13 @@
     -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
 }
 
+@media screen and (max-width: 1024px) {
+    .sliderPage1 {
+        margin-top: 15rem;
+        height: 50%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .sliderPage1 {
         margin-top: 3rem;
@@ -46,6 +53,13 @@
     box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width: 1024px) {
+    .sliderPage2 {
+        margin-top: 15rem;
+        height: 50%;
+    }
 }
 
 @media screen and (max-width: 768px) {
