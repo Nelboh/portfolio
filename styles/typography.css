@@ -120,7 +120,7 @@ h2 {
 
 @media screen and (max-width: 280px) {
     .h2alternate {
-        text-align: center;
+        margin-right: 1rem;
     }
 }
 

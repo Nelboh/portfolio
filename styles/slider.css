@@ -25,6 +25,15 @@
     }
 }
 
+@media screen and (max-width: 280px) {
+    .sliderPage1 {
+        padding-left: 0.5rem;
+        position: relative;
+        width: 120%;
+        right: 2rem;
+    }
+}
+
 .sliderPage2 {
     cursor: default;
     width: 90%;
@@ -45,6 +54,13 @@
         margin-top: 3rem;
         margin-bottom: 3rem;
         padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .sliderPage2 {
+        position: relative;
+        left: 1rem;
     }
 }
 
