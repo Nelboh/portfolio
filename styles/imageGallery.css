@@ -14,9 +14,6 @@
 
 @media screen and (max-width: 1000px) {
     .imageGallery {
-        /* grid-template-columns: repeat(3, 1fr);
-        margin-top: 12rem;
-        height: 60%; */
         grid-template-columns: repeat(2, 1fr);
         height: 80%;
         width: 100%;
