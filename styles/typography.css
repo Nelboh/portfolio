@@ -276,28 +276,7 @@ h4 {
     color: var(--offWhite);
 }
 
-/* .tabText {
-    text-align: center;
-    z-index: 999;
-    font-family: 'Bebas Neue', sans-serif;
-	font-weight: normal;
-    font-size: 2rem;
-    color: var(--darkBlue);
-	text-decoration: none;
-	text-transform: capitalize; /* for backup fonts */
-/* } */
-
-/* .tabTextAlternate {
-    position: relative;
-    left: 3.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-} */ 
-
 ul {
-    /* padding-bottom: 1rem; */
     padding-top: 1rem;
 }
 

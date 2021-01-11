@@ -45,7 +45,6 @@
 @media screen and (max-width: 768px) {
     .layout2 {
         display: grid;
-        /* grid-template-columns: 5fr 1fr; */
         grid-template-columns: none;
         position: relative;
         width: 100%;
@@ -97,8 +96,6 @@
 
     margin-top: 3rem;
     margin-bottom: 3rem;
-    /* padding-left: 20rem; */
-    /* padding-right: 4rem; */
     padding-top: 3rem;
     padding-bottom: 2rem;
     
