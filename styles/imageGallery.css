@@ -14,15 +14,31 @@
     overflow: scroll;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1412px) {
     .imageGallery {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        height: 80%;
         width: 100%;
         position: relative;
         right: 1rem;
         margin-top: 3rem;
         margin-bottom: 3rem;
+        margin-left: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .imageGallery {
+        grid-template-columns: repeat(1, 1fr);
         height: 80%;
+        width: 100%;
+        position: relative;
+        right: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 0;
+        padding: 0;
     }
 }
 
@@ -40,3 +56,23 @@
     -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
 }
 
+@media screen and (max-width: 768px) {
+    .artBox {
+        height: 7rem;
+        width: 7rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .artBox {
+        height: 6rem;
+        width: 6rem;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .artBox {
+        height: 4rem;
+        width: 4rem;
+    }
+}
