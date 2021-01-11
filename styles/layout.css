@@ -15,7 +15,7 @@
     background-color: var(--darkBlue);
     position: relative;
     margin-right: 0;
-    height: 650px;
+    height: 85vh;
 }
 
 @media screen and (max-width: 768px) {
@@ -39,7 +39,7 @@
     background-color: var(--yellow);
     position: relative; 
     margin-left: 0;
-    height: 650px;
+    height: 85vh;
 }
 
 @media screen and (max-width: 768px) {

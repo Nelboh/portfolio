@@ -92,7 +92,8 @@
     grid-template-columns: 5fr 1fr;
     
     width: 60%;
-    height: fit-content;
+    /* height: fit-content; */
+    height: 92%;
 
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -108,6 +109,18 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efd151",endColorstr="#eecd41",GradientType=1);
 }
 
+@media screen and (max-width: 768px) {
+    .sliderHolder2 {
+        height: 89%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .sliderHolder2 {
+        height: 93%;
+    }
+}
+
 .sliderHolder3 {
     position: absolute;
     z-index: 100;
@@ -119,7 +132,7 @@
     grid-template-columns: 1fr 5fr;
     
     width: 60%;
-    height: 90%;
+    height: 91%;
 
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -175,6 +188,7 @@
 @media screen and (max-width: 768px) {
     .sliderCopyBox {
         margin-right: 0;
+        height: 80%;
     }
 }
 
