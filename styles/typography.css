@@ -249,10 +249,16 @@ h3 {
 h4 {
     font-family: 'Bebas Neue', sans-serif;
 	font-weight: normal;
-    font-size: calc(14px + 1.5vw);
+    font-size: 2rem;
     color: var(--darkBlue);
 	text-decoration: none;
 	text-transform: capitalize; /* for backup fonts */
+}
+
+@media screen and (max-width: 768px) {
+    h4 {
+        font-size: 1.3rem;
+    }
 }
 
 .devPreview {
