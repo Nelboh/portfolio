@@ -21,6 +21,16 @@
     }
 }
 
+@media screen and (min-width: 769px) {
+    .sliderPage1 {
+        max-width: 90%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        padding: 0.5rem;
+        height: 80%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .sliderPage1 {
         margin-top: 3rem;
@@ -60,6 +70,16 @@
     .sliderPage2 {
         margin-top: 15rem;
         height: 50%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .sliderPage2 {
+        max-width: 90%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        padding: 0.5rem;
+        height: 80%;
     }
 }
 

@@ -247,7 +247,8 @@ h2 {
 h3 {
     font-family: 'Bebas Neue', sans-serif;
 	font-weight: normal;
-    font-size: calc(20px + 1.5vw);
+    /* font-size: calc(20px + 1.5vw); */
+    font-size: 1.5rem;
     color: var(--darkBlue);
 	text-decoration: none;
 	text-transform: capitalize; /* for backup fonts */
@@ -422,16 +423,3 @@ a.bodyLink:hover {
     margin-bottom: 0;
     padding-top: 1rem;
 }
-
-/* @media screen and (max-width: 1024px) {
-    .cardLink {
-        font-size: 3rem;
-    }
-} */
-
-/* 
-@media screen and (max-width: 768px) {
-    .cardLink {
-        font-size: 2rem;
-    }
-} */
