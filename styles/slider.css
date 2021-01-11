@@ -121,6 +121,12 @@
     }
 }
 
+@media screen and (max-width: 280px) {
+    .sliderHolder2 {
+        height: 91%;
+    }
+}
+
 .sliderHolder3 {
     position: absolute;
     z-index: 100;

@@ -28,6 +28,12 @@
     }
 }
 
+@media screen and (max-width: 280px) {
+    .layout1 {
+        height: 40rem;
+    }
+}
+
 .bgArt {
     background-color: var(--lightBlue);
 }
@@ -49,6 +55,12 @@
         position: relative;
         width: 100%;
         height: 35rem;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .layout2 {
+        height: 40rem;
     }
 }
 
@@ -118,6 +130,14 @@
 @media screen and (max-width: 1430px) {
     .whitePage2 {
         padding-left: 4rem;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .whitePage2 {
+        width: 65%;
+        padding-left: 4rem;
+        padding-right: 0.5rem;
     }
 }
 
