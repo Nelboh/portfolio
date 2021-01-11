@@ -78,7 +78,8 @@ h1 {
 .homeTitle {
     font-size: 12vw;
     margin-left: 2rem;
-    padding-top: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 
 @media screen and (max-width: 1366px) {
@@ -148,12 +149,6 @@ h2 {
     -webkit-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
 }
-
-/* @media screen and (max-width: 1024px) {
-    .sliderTitle1 {
-        margin-top: 27rem;
-    }
-} */
 
 @media screen and (max-width: 768px) {
     .sliderTitle1 {
@@ -421,5 +416,20 @@ a.bodyLink:hover {
 }
 
 .cardLink {
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-bottom: 0;
+    padding-top: 1rem;
 }
+
+/* @media screen and (max-width: 1024px) {
+    .cardLink {
+        font-size: 3rem;
+    }
+} */
+
+/* 
+@media screen and (max-width: 768px) {
+    .cardLink {
+        font-size: 2rem;
+    }
+} */

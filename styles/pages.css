@@ -41,14 +41,14 @@
 		padding-bottom: 6rem;
 		background-color: var(--offWhite);
         z-index: 10;
-        height: 10rem;
+        /* height: 10rem; */
     }
 }
 
 .title {
 	display: grid;
 	box-sizing: border-box;
-	height: 100vh;
+	/* height: 60vh; */
 	padding-left: 4rem;
 	padding-top: 4rem;
 	background-color: var(--offWhite);
@@ -63,6 +63,13 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .title {
+        margin: 0;
+        padding: 0;
+        height: 15rem;
+    }
+}
 
 .page1 {
 	position: relative;
@@ -83,7 +90,7 @@
 @media screen and (max-width: 1366px) {
 	.page1 {
 
-        height: 10rem;
+        height: 12rem;
 		background: -moz-linear-gradient(180deg, var(--darkerBlue) 0%, var(--darkBlue) 10%);
 		background: -webkit-linear-gradient(180deg, var(--darkerBlue) 0%, var(--darkBlue) 10%);
 		background: linear-gradient(180deg, var(--darkerBlue) 0%, var(--darkBlue) 10%);
@@ -119,7 +126,7 @@
 @media screen and (max-width: 1366px) {
 	.page2 {
 
-        height: 10rem;
+        height: 12rem;
 
 		background: -moz-linear-gradient(180deg, var(--darkYellow) 0%, var(--yellow) 10%);
         background: -webkit-linear-gradient(180deg, var(--darkYellow) 0%, var(--yellow) 10%);
@@ -151,7 +158,7 @@
 @media screen and (max-width: 1366px) {
 	.page3 {
 
-        height: 10rem;
+        height: 12rem;
 
 		background: -moz-linear-gradient(180deg, var(--midBlue) 0%, var(--lightBlue) 10%);
         background: -webkit-linear-gradient(180deg, var(--midBlue) 0%, var(--lightBlue) 10%);
@@ -182,7 +189,7 @@
 
 @media screen and (max-width: 1366px) {
 	.page4 {
-        height: 10rem;
+        height: 12rem;
 
 		background: -moz-linear-gradient(180deg, var(--darkerGrey) 0%, var(--darkGrey) 10%);
         background: -webkit-linear-gradient(180deg, var(--darkerGrey) 0%, var(--darkGrey) 10%);
