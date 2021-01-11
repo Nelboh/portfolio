@@ -12,8 +12,11 @@
     overflow: scroll;
 }
 
-@media screen and (max-width: 1412px) {
+@media screen and (max-width: 1000px) {
     .imageGallery {
+        /* grid-template-columns: repeat(3, 1fr);
+        margin-top: 12rem;
+        height: 60%; */
         grid-template-columns: repeat(2, 1fr);
         height: 80%;
         width: 100%;
@@ -26,15 +29,35 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1001px) {
     .imageGallery {
         grid-template-columns: repeat(3, 1fr);
-        margin-top: 12rem;
-        height: 60%;
+        height: 80%;
+        width: 100%;
+        position: relative;
+        right: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 0;
+        padding: 0;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 1500px) {
+    .imageGallery {
+        grid-template-columns: repeat(4, 1fr);
+        height: 80%;
+        width: 100%;
+        position: relative;
+        right: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 574px) {
     .imageGallery {
         grid-template-columns: repeat(1, 1fr);
         height: 80%;
