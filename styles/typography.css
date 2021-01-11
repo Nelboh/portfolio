@@ -349,7 +349,7 @@ a {
 	font-family: 'Roboto', sans-serif;
 	color: var(--darkBlue);
 	border-bottom: none;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 a.currentPage {
