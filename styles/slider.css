@@ -91,6 +91,13 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5b647f",endColorstr="#5b647f",GradientType=1);
 }
 
+@media screen and (max-width: 1024px) {
+    .sliderHolder1 {
+        height: 97%;
+        margin-top: 1rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .sliderHolder1 {
         height: 92%;
@@ -108,7 +115,6 @@
     grid-template-columns: 5fr 1fr;
     
     width: 60%;
-    /* height: fit-content; */
     height: 92%;
 
     margin-top: 2rem;
@@ -123,6 +129,13 @@
     background: -webkit-linear-gradient(180deg, rgba(239,209,81,1) 0%, rgba(175,145,20,1) 2%, rgba(239,209,81,1) 2%, rgba(239,209,81,1) 98%, rgba(175,145,20,1) 98%, rgba(238,205,65,1) 100%);
     background: linear-gradient(180deg, rgba(239,209,81,1) 0%, rgba(175,145,20,1) 2%, rgba(239,209,81,1) 2%, rgba(239,209,81,1) 98%, rgba(175,145,20,1) 98%, rgba(238,205,65,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efd151",endColorstr="#eecd41",GradientType=1);
+}
+
+@media screen and (max-width: 1024px) {
+    .sliderHolder2 {
+        height: 97%;
+        margin-top: 1rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -173,6 +186,13 @@
 @media screen and (max-width: 768px) {
     .sliderHolder3 {
         height: 92%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .sliderHolder3 {
+        height: 97%;
+        margin-top: 1rem;
     }
 }
 
