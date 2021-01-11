@@ -390,3 +390,7 @@ a.bodyLink:hover {
         margin-left: 0.5rem;
     }
 }
+
+.cardLink {
+    font-size: 2rem;
+}
