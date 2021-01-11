@@ -77,9 +77,11 @@ h1 {
 
 .homeTitle {
     font-size: 12vw;
-    margin-left: 2rem;
+    padding-left: 2rem;
     padding-top: 4rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+    background-color: var(--offWhite);
+    z-index: 999;
 }
 
 @media screen and (max-width: 1366px) {
