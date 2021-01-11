@@ -134,7 +134,7 @@ h2 {
     max-width: 4rem;
     max-height: 12rem;
 
-    margin-top: 12rem;
+    margin-top: 14rem;
     margin-bottom: 12rem;
     text-align: center;
     padding: 0 1rem 0 1rem;
@@ -247,7 +247,6 @@ h2 {
 h3 {
     font-family: 'Bebas Neue', sans-serif;
 	font-weight: normal;
-    /* font-size: calc(20px + 1.5vw); */
     font-size: 1.5rem;
     color: var(--darkBlue);
 	text-decoration: none;
